@@ -8,7 +8,7 @@ import { TaskList } from '../../model/task-list';
 })
 export class TodoListComponent {
 
-  public taskList: Array<TaskList> = [{task: "Apenas teste", checked: false}]
+  public taskList: Array<TaskList> = []
 
   public deleteItemTaskList(event: number) {
 
@@ -25,4 +25,8 @@ export class TodoListComponent {
     }
   }
 
+  public setEmitTaskList(event: string){
+
+    this.taskList.push({task: event, checked: false})
+  }
 }
