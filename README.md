@@ -32,7 +32,10 @@ Descrições de cada projeto:
     * Event Binding
     * Data Binding
 
-* projeto 2: AINDA NÃO REALIZADO.
+* pokedex: projeto destinado a criar uma listagem de pokemons e apresentar suas estatísticas recebidas via API. Implementando conceitos:
+    * Comunicação entre componentes e módulos.
+    * Serviço HTTP.
+    * Animações CSS.
 
 * projeto 3: AINDA NÃO REALIZADO.
 
