@@ -5,6 +5,7 @@ $padding: rem-calc(20);
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: $padding 0;
 
     .pokemon{
@@ -16,6 +17,7 @@ $padding: rem-calc(20);
         padding: $padding;
         background: var(--branco);
         border-radius: rem-calc(10);
+        margin-bottom: rem-calc(10);
 
         &__status{
     
@@ -25,6 +27,7 @@ $padding: rem-calc(20);
                 font-style: italic;
                 font-weight: 700;
                 margin-bottom: rem-calc(10);
+                text-transform: capitalize;
             }
 
             ul{
@@ -61,7 +64,7 @@ $padding: rem-calc(20);
 
             img{
 
-                width: rem-calc(80);
+                width: rem-calc(60);
             }
         }
     }
