@@ -18,5 +18,5 @@
 
     </form>
     
-    <span class="message-error">Usuário ou senha incorreta</span>
+    <span class="message-error" *ngIf="messageError">{{messageError}}</span>
 </div>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from 'src/app/core/services/auth.service';
 
 @Component({
   selector: 'app-sign',
@@ -14,13 +15,25 @@ export class SignComponent {
     password: ['', [Validators.required]],
   })
 
-  constructor(private formBuilder: FormBuilder){}
+  public messageError!: string
+
+  constructor(
+    private formBuilder: FormBuilder,
+    private authService: AuthService
+    ){}
 
   public submitForm(){
 
     if(this.formAuth.valid){
 
-      console.log(this.formAuth)
+      this.authService.sign({
+        email: this.formAuth.value.email,
+        password: this.formAuth.value.password
+      }).subscribe({
+        next: (res) => res,
+        error: (error) => this.messageError = error
+      })
+
     }
   }
 
