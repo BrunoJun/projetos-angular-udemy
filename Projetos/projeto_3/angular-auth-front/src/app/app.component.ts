@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: 
             `
-            <a [routerLink]="['admin']">Admin</a>
             <router-outlet></router-outlet>
             `
 })
