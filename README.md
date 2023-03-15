@@ -42,13 +42,15 @@ Descrições de cada projeto:
     * Local Storage
     * Token (biblioteca angular-jwt)
 
-* projeto 4: AINDA NÃO REALIZADO.
+* dark-theme: o projeto tem como objetivo demonstrar a implementação da funcionalidade de mudança para o tema escuro do corpo e elementos de uma página. Alguns conceitos aplicados:
+    * Mudança de classes (toggle)
+    * Utilização de ENUMS
 
 ***
 
 ## Status
 
-:construction_worker: **EM ANDAMENTO** :construction_worker:
+:white_check_mark: **FINALIZADO** :white_check_mark:
 
 ***
 
