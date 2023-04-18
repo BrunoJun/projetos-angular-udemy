@@ -47,6 +47,11 @@ Descrições de cada projeto:
     * Utilização de ENUMS
 
 ***
+## Curso
+
+<a href="https://www.udemy.com/share/104y443@b7Cc8KiYw13vj56KsFObgFncERo1oNILumpKc5qUPOJSIT2xrsQj2sGrk09AvZW4tA==/">LINK DO CURSO</a>
+
+***
 
 ## Status
 
